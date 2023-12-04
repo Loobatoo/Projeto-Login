@@ -1,5 +1,3 @@
-console.log("ok")
-
 const Login = document.querySelector("#Input-Login")
 const SignIn = document.querySelector("#Input-Sign")
 
