@@ -8,9 +8,9 @@ const SignInUsername = document.querySelector("#Usuario-SignIn");
 const SignInPassword = document.querySelector("#Senha-SignIn");
 const MailPassword = document.querySelector("#E-mail-SignIn");
 
-let UsuarioAtual = null;
-let SenhaAtual = null;
-let Email =  null;
+let UsuarioAtual = "xxx";
+let SenhaAtual = "xxx";
+let Email =  "";
 
 BtnConfirmSignIn.addEventListener("click", () => {
 
@@ -25,7 +25,7 @@ BtnConfirmSignIn.addEventListener("click", () => {
         SenhaAtual = SignInPassword.value;
         Email = MailPassword.value;
 
-        console.log("criado!")
+        alert("Registrado!")
 
         console.log(UsuarioAtual)
         console.log(SenhaAtual)
@@ -42,7 +42,7 @@ BtnConfirmLogin.addEventListener("click", () => {
     } else if(LoginPassword.value != SenhaAtual){
         console.log("Password incorreto!")
     } else {
-        console.log("logado!")
+        alert("logado!")
     }
 
 })
