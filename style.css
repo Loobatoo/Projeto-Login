@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transition: .5s;
 }
 
 body{
@@ -27,7 +28,7 @@ body{
 
     background-color: white;
     border-radius: 25px;
-    box-shadow: 5px 5px 50px 5px black;
+    box-shadow: 0 5px 15px black;
 
 
     width: 60vw;
@@ -41,7 +42,7 @@ body{
 
     justify-content: center;
 
-    width: 50%;
+    width: 100%;
     height: 100%;
 
     padding: 2.5rem;  
@@ -92,6 +93,10 @@ body{
 
 .Login input:nth-child(6):hover {
     transform: translate(5px, 5px);
+}
+
+.Sign-in{
+    opacity: 0;
 }
 
 .Sign-in h1{
